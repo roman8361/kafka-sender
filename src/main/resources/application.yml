@@ -1,0 +1,16 @@
+server:
+  port: 9000
+
+spring:
+  kafka:
+    security:
+      protocol: "SSL"
+    bootstrap-servers: tzuku1.ru:9093
+    ssl:
+      key-store-location: app.jks
+      key-store-password: 123456
+      key-store-type: JKS
+      trust-store-location: app.jks
+      trust-store-password: 123456
+      key-password: 123456
+      trust-store-type: JKS
